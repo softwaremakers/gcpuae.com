@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/** 
+ * Default Advanced CSS Drop-Down Menu Theme
+ *
+ * @file		default.advanced.css
+ * @name		Default
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ */
+
+@import "default.css";
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Extension
+ */
+
+ul.dropdown li a {
+ text-decoration:none!important;
+	padding:0 44px;
+	font-family:"Trebuchet MS", Arial, Helvetica,  	sans-serif;
+	font-size:16px;
+	color:#FFF;
+	height:41px!important;
+	line-height:41px;
+	display:block;
+	font-style:normal;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	text-align:left;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Override
+ */
+
+ul.dropdown li {
+ padding: 0;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Reinitiate: post-override activities
+ */
+
+ul.dropdown li.dir {
+ padding: 7px 20px 7px 10px;
+}
+
+ul.dropdown ul li{
+ padding-right: 15px;
+ text-decoration:none!important;
+	padding:0 0;
+	font-family:"Trebuchet MS", Arial, Helvetica,  	sans-serif;
+	font-size:14px;
+	color:#FFF;
+	height:41px!important;
+	line-height:41px;
+	display:block;
+	font-style:normal;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	text-align:left;
+	width:200px;
+	clear:both;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Custom
+ */
+
+ul.dropdown ul a {
+text-decoration:none!important;
+	padding:0 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica,  	sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	height:41px!important;
+	line-height:41px;
+	display:block;
+	font-style:normal;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	text-align:left;
+	width:200px;
+}
+
+ul.dropdown ul a:hover {}
+
+ul.dropdown ul a.dir {
+ width: 124px;
+}
